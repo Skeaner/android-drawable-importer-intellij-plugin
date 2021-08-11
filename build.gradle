@@ -21,7 +21,7 @@ sourceSets {
 
 intellij {
     //version project.hasProperty('ideaVersion') ? ideaVersion : 'IC-2016.2.4'
-    version project.hasProperty('ideaVersion') ? ideaVersion : 'IC-2019.2.4'
+    version project.hasProperty('ideaVersion') ? ideaVersion : 'IC-2020.3.1'
 
     // Define IntelliJ Platform against which to build the plugin project.
     //version '192.7142.36'  // Same IntelliJ IDEA version (2019.2.4) for AS 3.6 RC 1
@@ -30,7 +30,7 @@ intellij {
     //pluginName 'BDI-plugin'
     pluginName 'ADI-hack'
     //plugins 'android'
-    plugins 'android', 'java'
+    plugins 'android', 'java','platform-images'
     updateSinceUntilBuild false
     sameSinceUntilBuild false
     downloadSources !Boolean.valueOf(System.getenv('CI'))
@@ -46,7 +46,7 @@ intellij {
 
 //group 'de.mprengemann.intellij.plugin.androidicons'
 
-def majorVersion = '0.7'
+def majorVersion = '0.8'
 version "${Boolean.valueOf(System.getenv('CI')) ? "$majorVersion-${System.getenv('TRAVIS_BUILD_NUMBER')}" : "$majorVersion"}"
 
 repositories {

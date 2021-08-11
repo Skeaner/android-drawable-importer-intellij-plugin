@@ -25,11 +25,6 @@ import org.jetbrains.annotations.NotNull;
 
 public class VectorsAction extends AnAction {
 
-    public VectorsAction() {
-        super("Vector Drawable Importer",
-              "Creates a new Android Vector Asset by the use of Google\'s Material Icons",
-              AndroidIcons.Android);
-    }
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent event) {

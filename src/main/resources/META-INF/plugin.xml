@@ -76,17 +76,29 @@
                text="Drawable"
                popup="false"
                class="de.mprengemann.intellij.plugin.androidicons.actions.AndroidAssetUtilsGroup"
-               icon="/src/main/resources/icons/android.png">
-            <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewAndroidAssetImage" />
+               icon="/icons/android.png">
+            <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewAndroidVectorAsset" />
             <separator />
             <action id="de.mprengemann.intellij.plugin.androidicons.actions.IconsAction"
-                    class="de.mprengemann.intellij.plugin.androidicons.actions.IconsAction" />
+                    class="de.mprengemann.intellij.plugin.androidicons.actions.IconsAction"
+                    text="Icon Pack Drawable Importer"
+                    description="Creates a new Android Asset by the use of Google\'s Material Icons or Android Icons"
+                    icon="/icons/android.png" />
             <action id="de.mprengemann.intellij.plugin.androidicons.actions.VectorsAction"
-                    class="de.mprengemann.intellij.plugin.androidicons.actions.VectorsAction" />
+                    class="de.mprengemann.intellij.plugin.androidicons.actions.VectorsAction"
+                    text="Vector Drawable Importer"
+                    description="Creates a new Android Vector Asset by the use of Google\'s Material Icons"
+                    icon="/icons/android.png" />
             <action id="de.mprengemann.intellij.plugin.androidicons.actions.AndroidBatchImportAction"
-                    class="de.mprengemann.intellij.plugin.androidicons.actions.AndroidBatchImportAction" />
+                    class="de.mprengemann.intellij.plugin.androidicons.actions.AndroidBatchImportAction"
+                    text="Batch Drawable Import"
+                    description="Import drawables and scale them to the missing resolutions."
+                    icon="/icons/android.png" />
             <action id="de.mprengemann.intellij.plugin.androidicons.AndroidMultiDrawableImporter"
-                    class="de.mprengemann.intellij.plugin.androidicons.actions.AndroidMultiDrawableAction" />
+                    class="de.mprengemann.intellij.plugin.androidicons.actions.AndroidMultiDrawableAction"
+                    text="Multisource-Drawable"
+                    description="Imports several drawables into the associated resources folders and renames them."
+                    icon="/icons/android.png" />
             <separator />
         </group>
     </actions>

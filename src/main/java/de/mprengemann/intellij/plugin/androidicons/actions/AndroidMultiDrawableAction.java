@@ -25,11 +25,6 @@ import org.jetbrains.annotations.NotNull;
 
 public class AndroidMultiDrawableAction extends AnAction {
 
-    public AndroidMultiDrawableAction() {
-        super("Multisource-Drawable",
-              "Imports several drawables into the associated resources folders and renames them.",
-              AndroidIcons.Android);
-    }
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent event) {
