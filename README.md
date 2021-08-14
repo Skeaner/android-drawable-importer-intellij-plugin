@@ -1,8 +1,7 @@
 ## Forker's note
-This fork came about because the original package stopped working somewhere around Android Studio 3.5.  
-I have provided an installation zip [here](https://gpskaihu.nz/ADI-hack/).
-As at 31Jan2020 it is known to run nicely on AS 3.6 RC 1.
-Any [feedback](https://github.com/MPArnold/android-drawable-importer-intellij-plugin/issues/1) would be appreciated. 
+This fork came about because the original package stopped working somewhere around Android Studio arctic fox.  
+I have provided an installation zip [here](https://github.com/Skeaner/android-drawable-importer-intellij-plugin/releases/download/0.8/ADI-hack-0.8.zip).
+As at 2021-8-15 it is known to run nicely on android studio arctic fox.
 
 # Android Drawable Importer Plugin
 
